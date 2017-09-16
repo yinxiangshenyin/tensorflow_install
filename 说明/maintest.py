@@ -5,8 +5,8 @@ import librosa  # https://github.com/librosa/librosa
 import pdb
 import tensorflow as tf  # 0.12
 
-Train_data_lib=Train_data_lib.Train_date_lib()
 
+print("ok")
 
 train_data,train_label=Train_data_lib.Get_train_data()
 print("样本数：",len(train_label))
